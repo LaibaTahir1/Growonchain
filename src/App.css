@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  background-color: black;
+  height: 500px;
+ 
+  
+}
+.bigBox{
+text-align: center;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-gap: 40px;
+height: 100px;
+
+}
+.boxBlock{
+display: block;
+background-color:grey;
+border: 2px solid black;
+border-radius: 5px;
+margin-top: 40px;
+margin-left: 20px;
+
+}
+.box{
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 20px;
+  height: 260px;
+  text-align: center;
+  margin-left: 20px;
+}
+.smalbox{
+  border-radius: 6px;
+  background-color: gray;
+  margin-left: 20px;
+}
+.border{
+  border-bottom: 2px solid black ;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.clr{
+  height: 230px;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.card-grid{
+  margin: 0%;
+  padding: 0%;
+  max-width: 883px;
+  
+
+  
+}
+
+.card-block{
+  display: block;
+}

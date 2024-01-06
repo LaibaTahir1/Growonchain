@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
    <>
-   <div className='bg-black text-white'>
+   <div className=' text-white'>
     <div className='text-center '>
     <div className='flex gap-20 justify-center p-10'>
               <div className='block'>
@@ -17,8 +17,8 @@ function About() {
               <div className=' gap-7 flex justify-center'>
                 <div>
                 <img className='' src="./assets/images/bpic1.png" alt='' />
-              <div className='flex justify-center gap-10 '>
-              <div>
+              <div className='flex justify-center gap-10  border-blue-400 '>
+              <div className=  ''>
               <p className='text-start font-semibold text-xl'>Dheeraj Shah</p>
               <p className='text-start'>Founder,GrowOnchain</p>
               </div>

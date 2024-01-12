@@ -36,13 +36,13 @@ function App() {
     <div >
       <Layout >
 
-        <Header />
+        {/* <Header />
         <Description />
         <Feature />
         <Journey />
         <Benefit />
         <Figma />
-        <Faq />
+        <Faq /> */}
 
       </Layout>
     </div>

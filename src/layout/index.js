@@ -1,20 +1,18 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import React from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Layout({ children }) {
   return (
-    <div className="bg-[#0E100F] max-w-[1000px] mx-auto ">
-      <Navbar />
-      <div className='max-w-[1000px] mx-auto'>
-      {children}
+    <div className='flex flex-col min-h-screen'>
+      <div className='bg-[#0E100F] max-w-[1240px] mx-auto flex-1 w-full'>
+        <Navbar />
+        <div className='max-w-[1000px] mx-auto'>{children}</div>
       </div>
-     <div className='bg-blue-700 '> <Footer /></div>
+      
+      <Footer />
     </div>
-   
-
-  )
+  );
 }
 
-export default Layout
-
+export default Layout;

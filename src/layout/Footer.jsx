@@ -3,7 +3,8 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <div className=' bg-blue-700 mt-0 '>
+    <div className=' bg-[image-assets/images/Footer.png] mt-0 '>
+     
         <div className=' bg-blue-700 max-w-[760px] mx-auto w-full'>
         <div className=' text-white h-[600px] bg-blue-700 flex justify-around w-600'>
            <div className='block mt-8 '>

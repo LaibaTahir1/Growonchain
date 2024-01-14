@@ -2,46 +2,48 @@ import React from 'react'
 
 function Faq() {
   return (
-    <div className='p-8 mb-10 text-white'>
-      <div className='max-w-[760px] mx-auto w-full '>
-        <div className='' > <h1 className='text-blue-900 p-2 text-start  text-5xl font-bold '>FAQS</h1></div>
-        <div className='mt-10 text-start  '>
-          <div className='flex   h-12 gap-3  bg-blue-300 w-[600px] rounded-lg '>
-            <img className='w-8 h-8 p-1 mt-2 ml-2 mb-2'  src="./assets/images/arrow.png" alt='' />
-          <h1 className=' text-blue-900 h-8  text-start  p-1 font-bold mt-2 text-lg'>  What is the time Commitment?</h1>
+    <div className=' text-white'>
+      <div className='max-w-[800px] mx-auto w-full '>
+        <div className='' > <h1 className='text-[#4860DE] p-2 text-start  text-[54px] font-semibold '>FAQS</h1></div>
+        <div className='mt-[60px] text-start  '>
+          <div className='flex  pb-3 pl-3 pr-3  gap-2.5  bg-[#93A4F3] max-w-[800px] mx-auto w-full rounded-xl '>
+            <img className='pt-3'  src="./assets/images/arrow.png" alt='' />
+          <h1 className=' text-[#2C3B87] pt-3  text-start   font-semibold text-2xl'>  What is the time Commitment?</h1>
           </div>
-         <div className='flex  mt-3 h-12 gap-3  bg-blue-300 w-[600px] rounded-lg '>
-         <img className='w-8 h-8 p-1 mt-2 ml-2 mb-2'  src="./assets/images/arrow.png" alt='' />
-         <h1 className=' text-blue-900 h-8  text-start  p-1 font-bold mt-2 text-lg'> Who is web three cohort for?
+         <div className='flex pb-3 pl-3 pr-3  gap-2.5  mt-4  bg-[#93A4F3] max-w-[800px] w-full mx-auto rounded-xl '>
+         <img className='pt-3'  src="./assets/images/arrow.png" alt='' />
+         <h1 className=' text-[#2C3B87] pt-3  text-start   font-semibold text-2xl'> Who is web three cohort for?
            What if i nothing about Web3? </h1>
          </div>
-          <div className='flex  mt-3 h-12 gap-3  bg-blue-300 w-[600px] rounded-lg '>
-          <img className='w-8 h-8 p-1 mt-2 ml-2 mb-2'  src="./assets/images/arrow.png" alt='' />
-          <h1 className=' text-blue-900 h-8  text-start  p-1 font-bold mt-2 text-lg'>What will i learn in this chorot?</h1>
+          <div className='flex  pb-3 pl-3 pr-3  mt-4 gap-2.5  bg-[#93A4F3] max-w-[800px] w-full mx-auto rounded-xl '>
+          <img className='pt-3'  src="./assets/images/arrow.png" alt='' />
+          <h1 className=' text-[#2C3B87] pt-3  text-start   font-semibold text-2xl'>What will i learn in this chorot?</h1>
           </div>
-          <div className=' rounded-t-lg  p-1 font-bold mt-1 text-lg'>
-            <div className='flex  mt-3 h-12 gap-3  bg-blue-300 w-[600px] rounded-t-lg '>
-            <img className='w-8 h-8 p-1 mt-2 ml-2 mb-2'  src="./assets/images/arrow2.png" alt='' />
-            <h1 className=' text-blue-900 h-8  text-start  p-1 font-bold mt-2 text-lg'>What is the Web3 Cohort?</h1>
+          <div className=' rounded-t-lg   mt-4 '>
+            <div className='flex   pb-3 pl-3 pr-3  gap-2.5  bg-[#93A4F3]  max-w-[800px] w-full mx-auto rounded-t-xl '>
+            <img className='pt-3'  src="./assets/images/arrow2.png" alt='' />
+            <h1 className=' text-[#2C3B87] pt-3  text-start   font-semibold text-[24px]'>What is the Web3 Cohort?</h1>
             </div>
-            <h1 className='block justify-center pl-10 text-white bg-blue-900  max-w-[600px]  max-h-[180px]  p-1 font-medium'>Our invites-only cohort empower people to unlock financial fredom through crypto , education ,experimantation, and community. Through cohort base learning member will explore and gain learning experience using the top blockchain protocols and applications.</h1>
-            <div className='block rounded-b-lg justify-center  text-white bg-blue-900    w-[600px]    font-bold text-lg  '>
-              <p className='block justify-center pl-12 text-white bg-blue-900  max-w-[600px]  max-h-[180px]  p-1 font-medium'> 40 ¬ hours of content via a comprehensive learning program:  </p>
-              <div className='block justify-center pl-16 text-white bg-blue-900  max-w-[600px]  max-h-[180px]  p-1 font-medium'>
-              <p> Live Classes + Demo + Live Q&A Sessions  </p>
-              <p> Membership NFT & Certification NFT  </p>
+            <h1 className='block justify-center pt-3 pl-8 pr-8 pb-6 text-white bg-[#2C3B87]  max-w-[800px] w-full mx-auto text-lg  font-medium'>Our invites-only cohort empower people to unlock financial fredom through crypto  education ,experimantation, and community. Through cohort base learning member will explore and gain learning experience using the top blockchain protocols and applications.</h1>
+            <div className='block rounded-b-lg justify-center  text-white bg-blue-900      font-bold text-lg  '>
+              <ul className='block justify-center  pl-14 pr-12  text-white bg-[#2C3B87] list-disc  max-w-[800px] w-full mx-auto text-lg  font-medium'><li> 40 ¬ hours of content via a comprehensive learning program:</li>  </ul>
+              <div className='block justify-center pl-3 pr-3  text-white bg-[#2C3B87]  max-w-[800px] w-full mx-auto text-lg  font-medium'>
+              <ul className='list-disc pl-16 pr-16'><li> Live Classes + Demo + Live Q&A Sessions </li> </ul>
+              <ul className='list-disc pl-16 pr-10'><li> Access to Recordings & Class Materials, Step-by-Step How-to Guides, & Quizzes </li> </ul>
+              <ul className='list-disc pl-16 pr-16'><li> Membership NFT & Certification NFT </li> </ul>
               </div>
-              <div className='block rounded-b-lg  justify-center pl-12 text-white bg-blue-900  max-w-[600px]  max-h-[180px]  p-1 font-medium'>
-              <p > Community discussion platform for continued learning & Building connection </p>
-              <p>  Guest Speakers for leading crypto companies and VC firm</p>
+              <div className='block rounded-b-lg  pt-3 pl-3 pr-3 pb-6 text-white bg-[#2C3B87]  max-w-[800px] w-full mx-auto  text-lg font-medium'>
+              <ul className='list-disc pl-11 pr-11'>  <li>Community discussion platform for continued learning & Building connection </li></ul>
+              <ul className='list-disc pl-11 pr-11'>  <li>Guest Speakers for leading crypto companies and VC firm</li></ul>
               </div>
             </div>
           </div>
         </div>
 
-        <div className='   text-white text-start mt-10  text-lg font-semibold'>
-          <h1>Have more Question? Drop us a mail at  </h1>
-          <h1 className='mt-2'>web3withdhee@gmail.com</h1>
+        <div className='   text-white text-start mt-20 '>
+          <h1 className=' text-[22px] font-normal'>Have more Question? Drop us a mail at  </h1>
+         <div className='flex gap-1'> <h1 className='mt-4  text-[22px] font-medium'>web3withdhee@gmail.com</h1>
+         <img src='assets/images/copy.png' alt=' ' /> </div>
         </div>
       </div>
 

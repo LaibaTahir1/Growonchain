@@ -4,90 +4,90 @@ function Journey() {
   return (
     <>
     <div className=' text-white'>
-    <div  className=  'bg-[#4A2988]  p-10 max-w-[760px] mx-auto w-full   rounded-lg'>
+    <div  className=  'bg-[#4A2988] pt-10  pl-10 pr-10 pb-10 max-w-[800px] mx-auto w-full   rounded-xl'>
               <div className='flex gap-20 justify-center'>
               <div className='block'> 
-              <h1 className=' font-extrabold text-xl  mt-6 text-green-400'>Journey </h1>
-                <h1 className=' font-extrabold text-2xl  text-white '>Curriculum </h1>
-                <div className='flex mt-8  gap-8 justify-around'>
-                <div  className=' h-32 w-32 text-start p-3 rounded-lg bg-[#7943DF]'>
-                    <p className='text-bold text-6xl'>8</p>
-                    <p className='text-bold mt-4 text-3xl'>weeks</p>
+              <div className='leading-[51px] pt-10'><h1 className=' font-medium  text-2xl   text-[#32E274] '>Journey </h1>
+                <h1 className=' font-semibold text-[54px]  text-white '>Curriculum </h1></div>
+                <div className='flex mt-6  gap-8 justify-around'>
+                <div  className=' h-32 w-32 text-start pl-3 rounded-xl bg-[#7943DF]'>
+                    <p className='text-semibold text-[56px]'>8</p>
+                    <p className='text-bold  text-[24px]'>weeks</p>
                 </div>
-                <div  className='w-32 h-32 text-start p-3 rounded-lg bg-[#7943DF]'>
-                    <p className='text-bold text-6xl'>7</p>
-                    <p className='text-bold mt-4 text-3xl'>Module</p>
+                <div  className='w-32 h-32 text-start pl-3 rounded-xl bg-[#7943DF]'>
+                    <p className='text-semibold  text-[56px]'>7</p>
+                    <p className='text-bold text-[24px]'>Module</p>
                 </div>
         
                 </div>
               </div>
                 
-                <p  className='w-96 text-start mt-10 text-xl text-bold'>This topic include Blockchain ,Scaling Solution (ZK), Decentralized Finance(Defi) ,Non-Fungible Tokens(NFTS) ,Decentralized Autonomous Organizations (DAOS) ,Governance ,Gaming and Mataverse,Artifical Intelligence,Web3 Social and Consumer Crypto</p> 
+                <div className='pt-10'><p  className=' text-start pt-8 text-xl leading-[22px] text-bold'>This topic include Blockchain ,Scaling Solution (ZK), Decentralized Finance(Defi) ,Non-Fungible Tokens(NFTS) ,Decentralized Autonomous Organizations (DAOS) ,Governance ,Gaming and Mataverse,Artifical Intelligence,Web3 Social and Consumer Crypto</p></div> 
               </div>
 
               <div className='mt-20   justify-center items-center mb-10'>
-              <div className='     block  justify-center items-center h-64 bg-[#7943DF] rounded-xl'>
+              <div className='     block  justify-center items-center h-52 max-w-[750px] mx-auto w-full bg-[#7943DF] rounded-xl'>
                 <div className=' flex justify-between'>
-                <img className='w-14 m-4 mt-4  h-14' src="./assets/images/Group.png" alt=''></img>
-                <p className='font-bold text-lg  mr-8 mt-4'>Week 1</p>
+                <img className='pt-3 pl-3' src="./assets/images/Group.png" alt=''></img>
+                <p className='font-semibold text-2xl  pr-3 mt-4'>Week 1</p>
                 </div>
-                <p className='text-start ml-4 text-bold text-2xl' > Blockchain Basics</p>
+                <p className='text-start mt-4 pl-4 font-semibold text-2xl' > Blockchain Basics</p>
               </div>
               {/* flex */}
-              <div className='flex gap-6 justify-center mt-10  ' >
-              <div className='   w-80 h-48  bg-[#7943DF] rounded-xl'> 
+              <div className='flex gap-4  justify-center mt-4  ' >
+              <div className='   w-[350px] mx-auto h-52  bg-[#7943DF] rounded-xl'> 
                 <div className=' flex justify-between'>
-                <img className='w-14 m-4 mt-4  h-14'src="./assets/images/Group.png" alt=''></img>
-                <p className='font-bold text-lg  mr-8 mt-4'>Week 2</p>
+                <img className='pl-3 pt-3'src="./assets/images/Group.png" alt=''></img>
+                <p className='font-semibold text-2xl  pr-3 mt-4'>Week 2</p>
                 </div>
-                <p className='text-start ml-4 text-bold text-2xl' > Blockchain</p>
-                <p className='text-start ml-4 text-bold text-2xl' >  Scaling</p>
+               <div className='text-start  pl-4 font-semibold text-2xl leading-[22px]'> <p className='text-start mt-4' > Blockchain</p>
+                <p >  Scaling</p></div>
               </div>
-              <div className=' w-80 h-48  bg-[#7943DF] rounded-xl'>
+              <div className=' w-[350px] mx-auto h-52  bg-[#7943DF] rounded-xl'>
                 <div className=' flex justify-between'>
-                <img className='w-14 m-4 mt-4  h-14' src="./assets/images/Group.png" alt=''></img>
-                <p className='font-bold text-lg  mr-8 mt-4'>Week 3</p>
+                <img className='pl-3 pr-3' src="./assets/images/Group.png" alt=''></img>
+                <p className='font-semibold text-2xl  pr-3 mt-4'>Week 3</p>
                 </div>
-                <p className='text-start ml-4 text-bold text-2xl' > Decentralized</p>
-                <p className='text-start ml-4 text-bold text-2xl' >Finance</p>
+                <div className='text-start pl-4 font-semibold text-2xl leading-[22px]'><p className='text-start mt-4' > Decentralized</p>
+                <p  >Finance</p></div>
               </div>
               </div>
               {/* 2 */}
-              <div className='flex gap-6 justify-center mt-10  ' >
-              <div className='  w-80 h-48  bg-[#7943DF] rounded-xl'>
+              <div className='flex gap-4 justify-center mt-4  ' >
+              <div className='  w-[350px] mx-auto h-52  bg-[#7943DF] rounded-xl'>
                 <div className=' flex justify-between'>
-                <img className='w-14 m-4 mt-4  h-14' src="./assets/images/Group.png" alt=''></img>
-                <p className='font-bold text-lg  mr-8 mt-4'>Week 4</p>
+                <img className='pl-3 pt-3' src="./assets/images/Group.png" alt=''></img>
+                <p className='font-semibold text-2xl  pr-3 mt-4'>Week 4</p>
                 </div>
-                <p className='text-start ml-4 text-bold text-2xl' > Non-Fungible</p>
-                <p className='text-start ml-4 text-bold text-2xl' >Tokens</p>
+               <div className='text-start pl-4 font-semibold text-2xl leading-[22px]'> <p className='text-start mt-4' > Non-Fungible</p>
+                <p  >Tokens</p></div>
               </div>
-              <div className='  w-80 h-48 bg-[#7943DF] rounded-xl'>
+              <div className='  w-[350px] mx-auto h-52 bg-[#7943DF] rounded-xl'>
                 <div className=' flex justify-between'>
-                <img className='w-14 m-4 mt-4  h-14' src="./assets/images/Group.png" alt=''></img>
-                <p className='font-bold text-lg  mr-8 mt-4'>Week 5</p>
+                <img className='pl-3 pt-3' src="./assets/images/Group.png" alt=''></img>
+                <p className='font-semibold text-2xl  pr-3 mt-4'>Week 5</p>
                 </div>
-                <p className='text-start ml-4 text-bold text-2xl' >Gaming &</p>
-                <p className='text-start ml-4 text-bold text-2xl' > MetaVerse</p>
+                <div className='text-start pl-4 font-semibold text-2xl leading-[22px]'><p className='text-start mt-4' >Gaming &</p>
+                <p  > MetaVerse</p></div>
               </div>
               </div>
               {/* 3 */}
-              <div className='flex gap-6 justify-center mt-10  ' >
-              <div className='   w-80 h-48 bg-[#7943DF] rounded-xl'>
+              <div className='flex gap-4 justify-center mt-4  ' >
+              <div className='   w-[350px] mx-auto h-52 bg-[#7943DF] rounded-xl'>
                 <div className=' flex justify-between'>
-                <img className='w-14 m-4 mt-4  h-14' src="./assets/images/Group.png" alt=''></img>
-                <p className='font-bold text-lg  mr-8 mt-4'>Week 6</p>
+                <img className='pl-3 pt-3' src="./assets/images/Group.png" alt=''></img>
+                <p className='font-semibold text-2xl  pr-3 mt-4'>Week 6</p>
                 </div>
-                <p className='text-start ml-4 text-bold text-2xl' > DAO </p>
-                <p className='text-start ml-4 text-bold text-2xl' >  Governance & Grants</p>
+                <div className='text-start pl-4 font-semibold text-2xl leading-[22px]' ><p className='text-start mt-4 ' > DAO </p>
+                <p >  Governance & Grants</p></div>
               </div>
-              <div className=' mb-10  w-80 h-48  bg-[#7943DF] rounded-xl'>
+              <div className='  w-[350px] mx-auto h-52  bg-[#7943DF] rounded-xl'>
                 <div className=' flex  justify-between'>
-                <img className='w-14 m-2 mt-4  h-14'src="./assets/images/Group.png" alt=''></img>
-                <p className='font-bold text-lg  mr-8 mt-4'>Week 7</p>
+                <img className='pl-3 pt-3'src="./assets/images/Group.png" alt=''></img>
+                <p className='font-semibold text-2xl  pr-3 mt-4'>Week 7</p>
                 </div>
-                <p className='text-start ml-4 text-bold text-2xl' > Web3 Social </p>
-                <p className='text-start ml-4 text-bold text-2xl' >  Venture & Beyound!</p>
+               <div className='text-start pl-4 font-semibold text-2xl leading-[22px]'> <p className='mt-4 text-semibold text-2xl ' > Web3 Social </p>
+                <p  >  Venture & Beyound!</p></div>
               </div>
               </div>
               </div>

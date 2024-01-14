@@ -17,35 +17,37 @@ import Infinity from './Components/Infinity';
 import LastNew from './Components/LastNew';
 import Ending from './Components/Ending';
 import Layout from './layout';
+import Boxes from './Components/Boxes';
 
 
 function App() {
   return (
-    // <div className='bg-black'>
-    // <Top/>
-    // <Intro/>
-    // <Progress/>
-    // <Returning/>
-    // <DailyTasks/>
-    // <Newto/>
-    // <Communities/>
-    // <Infinity/>
-    // <LastNew/>
-    // <Ending/>
-    // </div>
-    <div >
-      <Layout >
-
-        {/* <Header />
-        <Description />
-        <Feature />
-        <Journey />
-        <Benefit />
-        <Figma />
-        <Faq /> */}
-
-      </Layout>
+    <div className='bg-black'>
+    <Top/>
+    <Intro/>
+    <Progress/>
+    <Returning/>
+    <DailyTasks/>
+    <Newto/>
+    <Communities/>
+    <Infinity/>
+    <LastNew/>
+    <Ending/>
     </div>
+    // <div >
+    //   <Layout >
+    //     <Header />
+    //     <div className='max-w-[1240px] mx-auto'>
+    //     <Boxes/>
+    //     <Description />
+    //     <Feature />
+    //     <Journey />
+    //     <Benefit />
+    //     <Figma />
+    //     <Faq />
+    //     </div>
+    //   </Layout>
+    // </div>
    
 
   );

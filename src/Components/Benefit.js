@@ -4,40 +4,40 @@ function Benefit() {
   return (
     <>
 
-    <div className=' p-10  mb-10  text-white'>
-    <div className= 'bg-[#FFE8AF] max-w-[760px] mx-auto w-full rounded-lg   '>
-                <div><h1 className='text-start   text-[#9C7924] text-extrabold p-4 text-5xl'>Benefits</h1></div>
-               <div className='flex justify-center pl-3 pr-3'>
-               <div className='p-2 w-[500px] ml-4  rounded-lg m-2 bg-[#FFD05C]'>
-                    <img className='w-12 h-12' src="./assets/images/Vector.png" alt="" />
-                    <p className=' mt-10  text-[#9C7924] font-bold text-lg  text-start'> Career</p>
-                    <p className='text-start   text-[#9C7924] font-bold text-lg '>Launchpad</p>
+    <div className='mt-20 mb-20  text-white'>
+    <div className= 'bg-[#FFE8AF] max-w-[800px] pl-10 pr-10 pt-10 pb-10  mx-auto w-full rounded-xl   '>
+                <div><h1 className='text-start   text-[#9C7924] font-semibold text-[54px]'>Benefits</h1></div>
+               <div className='flex justify-center gap-4  mt-[60px]'>
+               <div className='pl-3 pt-3 max-w-[520px] mx-auto w-full h-[200px] flex flex-col  rounded-xl  bg-[#FFD05C]'>
+                   <div className='flex-1'><img className=' ' src="./assets/images/Vector.png" alt="" /></div> 
+                    <div className='leading-[22px] pb-3'><p className='   text-[#9C7924] font-semibold text-[24px]   text-start '> Career</p>
+                    <p className='text-start   text-[#9C7924] font-semibold text-[24px]'>Launchpad</p></div>
                 </div>
-                <div className='p-2 w-[300px] rounded-lg m-2 mr-4 bg-[#FFD05C]'>
-                <img className='w-12 h-12' src="./assets/images/Vector.png" alt="" />
-                    <p className=' mt-16  text-[#9C7924] font-bold text-lg text-start'> Knowledge</p>
-                </div>
-               </div>
-               <div className='flex justify-center ml-6 mr-6'>
-               <div className='p-2 w-[260px] rounded-lg m-2 bg-[#FFD05C]'>
-               <img className='w-12 h-12' src="./assets/images/Vector.png" alt="" />
-                    <p className=' mt-8 text-[#9C7924] font-bold text-lg  text-start'> Ticket to</p>
-                    <p className='text-start  text-[#9C7924] font-bold text-lg '>Web3 Events</p>
-                </div>
-                <div className='p-2 w-[260px] rounded-lg m-2 bg-[#FFD05C]'>
-                <img className='w-12 h-12 ' src="./assets/images/Vector.png" alt="" />
-                    <p className=' mt-16 text-[#9C7924] font-bold text-lg text-start'> Network</p>
-                </div>
-                <div className='p-2 w-[260px] rounded-lg m-2 bg-[#FFD05C]'>
-                <img className='w-12 h-12' src="./assets/images/Vector.png" alt="" />
-                    <p className=' mt-8 text-[#9C7924] font-bold text-lg text-start'>Exclusive</p>
-                    <p className='  text-[#9C7924] font-bold text-lg text-start'>Guest</p>
+                <div className='pl-3 pt-3 max-w-[230px] mx-auto w-full rounded-xl h-[200px]  flex flex-col bg-[#FFD05C]'>
+               <div className='flex-1'><img className='' src="./assets/images/Vector.png" alt="" /></div> 
+                    <p className='   text-[#9C7924]  font-semibold text-[24px] pb-3 text-start'> Knowledge</p>
                 </div>
                </div>
-               <div className='flex justify-center  ml-6 mr-6'>
-               <div className='p-2 w-[830px] rounded-lg m-2 bg-[#FFD05C]'>
-               <img className='w-12 h-12' src="./assets/images/Vector.png" alt=""/>
-                    <p className=' mt-8  text-[#9C7924] font-bold text-lg  text-start'> Network</p>
+               <div className='flex justify-center mt-4 gap-4'>
+               <div className='pl-3 pt-3 w-[280px] h-[200px] flex flex-col rounded-xl  bg-[#FFD05C]'>
+              <div className='flex-1'> <img className='w' src="./assets/images/Vector.png" alt="" /></div>
+                   <div className='leading-[22px] pb-3'> <p className=' mt-8 text-[#9C7924] font-semibold text-[24px]  text-start'> Ticket to</p>
+                    <p className='text-start  text-[#9C7924] font-semibold text-[24px] '>Web3 Events</p></div>
+                </div>
+                <div className='pl-3 pt-3 w-[280px] h-[200px] flex flex-col rounded-xl   bg-[#FFD05C]'>
+               <div className='flex-1'> <img className=' ' src="./assets/images/Vector.png" alt="" /></div>
+                    <p className='  text-[#9C7924] font-semibold text-[24px] pb-3 text-start'> Network</p>
+                </div>
+                <div className='pl-3 pt-3 w-[280px] h-[200px]  flex flex-col rounded-xl  bg-[#FFD05C]'>
+               <div className='flex-1'> <img className='' src="./assets/images/Vector.png" alt="" /></div>
+                    <div className='leading-[22px] pb-3'><p className='  text-[#9C7924] font-semibold text-[24px]  text-start'>Exclusive</p>
+                    <p className='  text-[#9C7924] font-semibold text-[24px]  text-start'>Guest</p></div>
+                </div>
+               </div>
+               <div className='flex justify-center mt-4 '>
+               <div className=' w-[830px]  pl-3 pt-3 h-[200px] flex flex-col rounded-xl  bg-[#FFD05C]'>
+               <div className='flex-1'><img className='' src="./assets/images/Vector.png" alt=""/></div>
+                    <p className='  text-[#9C7924] font-semibold text-[24px] pb-3  text-start'> Network</p>
                     
                 </div>
                </div>

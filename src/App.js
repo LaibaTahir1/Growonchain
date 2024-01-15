@@ -22,34 +22,32 @@ import Boxes from './Components/Boxes';
 
 function App() {
   return (
-    <div className='bg-black'>
-    <Top/>
-    <Intro/>
-    <Progress/>
-    <Returning/>
-    <DailyTasks/>
-    <Newto/>
-    <Communities/>
-    <Infinity/>
-    <LastNew/>
-    <Ending/>
-    </div>
-    // <div >
-    //   <Layout >
-    //     <Header />
-    //     <div className='max-w-[1240px] mx-auto p-2'>
-    //     <Boxes/>
-    //     <Description />
-    //     <Feature />
-    //     <Journey />
-    //     <Benefit />
-    //     <Figma />
-    //     <Faq />
-    //     </div>
-    //   </Layout>
+    // <div className='bg-black'>
+    // <Top/>
+    // <Intro/>
+    // <Progress/>
+    // <Returning/>
+    // <DailyTasks/>
+    // <Newto/>
+    // <Communities/>
+    // <Infinity/>
+    // <LastNew/>
+    // <Ending/>
     // </div>
-   
-
+    <div >
+      <Layout >
+        <Header />
+        <div className='max-w-[1240px] mx-auto p-2'>
+        <Boxes/>
+        <Description />
+        <Feature />
+        <Journey />
+        <Benefit />
+        <Figma />
+        <Faq />
+        </div>
+      </Layout>
+    </div>
   );
 }
 export default App;

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className='text-white flex justify-between  max-w-[1240px] mx-auto  py-8 px-7'>
+    <div className='text-white block md:flex justify-between  max-w-[1240px] mx-auto  py-8 px-7'>
       <div className='ml-2.5 mr-2.5'>
       <img src='assets/images/GrowOnChain.png ' className='w-[101px] h-10 ' alt='' />
       </div>

@@ -19,8 +19,8 @@ function Header() {
                         <img src='assets/images/Web3.png' className='mb-4 mt-4 mx-auto align-center text-center' alt='' />
                     </div>
                     <div className='text-center leading-8 mt-5'>
-                        <h4 className='text-white mt-4 font-medium text-[27px]'>An invite only private Community.Become a better designer, </h4>
-                        <h4 className='text-white font-medium text-[27px]'>meet other creatives, find new opportunities and level up your skills.</h4>
+                        <h4 className='text-white mt-4 font-medium text-[18px] md:text-[27px]'>An invite only private Community.Become a better designer, </h4>
+                        <h4 className='text-white font-medium text-[18px] md:text-[27px]'>meet other creatives, find new opportunities and level up your skills.</h4>
                         <div className='mt-[60px]'>
                             <h3 className='font-medium text-sm'>Enrollment is open!</h3>
                             <div className='mt-3 mb-3'> <button className='w-80 h-[46px] text-[16px] font-semibold  rounded-xl pl-4 pr-4 pt-1 pb-3  bg-[#95A3EC]'>Enroll Now</button></div>

@@ -14,7 +14,7 @@ function About() {
               </div>
             
             </div>
-            <p className='w-96 text-start leading-[22px]'>This Web3 Cohort is an invite-only 8 weeks of focused, collaborative learning complete with curated instructional courses, expert guest lectures, demos, and engagement activities to ensure participants walk away with a deep understanding of the Web3 and crypto ecosystem. We will meet twice weekly to learn and demo various protocols, use cases, platforms, and projects. </p>
+            <p className='w-80 text-start  leading-[22px]'>This Web3 Cohort is an invite-only 8 weeks of focused, collaborative learning complete with curated instructional courses, expert guest lectures, demos, and engagement activities to ensure participants walk away with a deep understanding of the Web3 and crypto ecosystem. We will meet twice weekly to learn and demo various protocols, use cases, platforms, and projects. </p>
           </div>
           <div className=' flex  justify-center'>
             <div className=' flex gap-20 mt-20 mb-[60px]'>
@@ -22,13 +22,13 @@ function About() {
                 <h1 className='font-semibold  text-start text-6xl  text-[#FFB400]'>Know your </h1>
                 <h1 className='font-semibold  text-start text-[54px]  text-[#FFB400]'>Mentors</h1>
               </div>
-              <p className='w-96 text-start leading-[22px]'>This Web3 Cohort is an invite-only 8 weeks of focused, collaborative learning complete with curated instructional courses, expert guest lectures, demos, and engagement activities to ensure participants walk away with a deep understanding of the Web3 and crypto ecosystem. We will meet twice weekly to learn and demo various protocols, use cases, platforms, and projects. </p>
+              <p className='w-80 text-start leading-[22px]'>This Web3 Cohort is an invite-only 8 weeks of focused, collaborative learning complete with curated instructional courses, expert guest lectures, demos, and engagement activities to ensure participants walk away with a deep understanding of the Web3 and crypto ecosystem. We will meet twice weekly to learn and demo various protocols, use cases, platforms, and projects. </p>
             </div>
           </div>
 
 
           <div className='flex justify-center text-center mt-10 gap-4 items-center'>
-            <div className=' gap-4 flex justify-center'>
+            <div className=' gap-4 block md:flex justify-center'>
               <div>
                 <img className='' src="./assets/images/bpic1.png" alt='' />
                 <div className='flex justify-center gap-10 border-[4px] border-t-0 rounded-b-xl  border-[#4860DE] '>
@@ -61,9 +61,9 @@ function About() {
               </div>
             </div>
           </div>
-          <div className='flex justify-center text-center mt-10 gap-4 items-center'>
+          <div className=' block md:flex justify-center text-center mt-10 gap-4 items-center'>
             <div className=' gap-4 flex justify-center'>
-              <div>
+             <div className=' flex justify-center '> <div>
                 <img className='' src="./assets/images/bpic1.png" alt='' />
                 <div className='flex justify-center gap-10  border-[4px] border-t-0 rounded-b-xl  border-[#4860DE]'>
                   <div className='pt-2 pb-2 pl-3 pr-3'>
@@ -82,8 +82,8 @@ function About() {
                   </div>
                   <p className='text-lg  pt-2 font-normal'>IND</p>
                 </div>
-              </div>
-              <div>
+              </div></div>
+              <div className=' '>
                 <img className='' src="./assets/images/bpic3.png" alt='' />
                 <div className='flex justify-center gap-10  border-[4px] border-t-0 rounded-b-xl  border-[#4860DE]'>
                   <div className='pt-2 pb-2 pl-3 pr-3 '>

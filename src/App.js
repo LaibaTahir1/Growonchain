@@ -37,7 +37,7 @@ function App() {
     // <div >
     //   <Layout >
     //     <Header />
-    //     <div className='max-w-[1240px] mx-auto'>
+    //     <div className='max-w-[1240px] mx-auto p-2'>
     //     <Boxes/>
     //     <Description />
     //     <Feature />

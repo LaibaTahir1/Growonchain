@@ -23,7 +23,7 @@ function Footer() {
                 
             </div>
            </div>
-            <div className='flex justify-between text-[16px] font-medium gap-6 pt-8 text-[#FFFFFF]'>
+            <div className=' block md:flex justify-between text-[16px] font-medium gap-6 pt-8 text-[#FFFFFF]'>
             <h2> Terms</h2>
             <h2>Pricing</h2>
             <h2>Return Policy</h2>

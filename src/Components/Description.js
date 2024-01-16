@@ -50,7 +50,7 @@ function About() {
     <>
       <div className=' text-white'>
         <div className='text-center max-w-[800px]   mx-auto '>
-          <div className='flex  gap-16 justify-center '>
+          <div className='grid grid-cols-2  gap-16 justify-center '>
             <div className='block'>
               <h2 className='font-medium text-start  text-2xl'>OVERVIEW</h2>
               <div className='leading-[51px]'>
@@ -59,15 +59,15 @@ function About() {
               </div>
 
             </div>
-            <p className=' text-start pt-[32px] text-2xl font-normal leading-[22px]'>This Web3 Cohort is an invite-only 8 weeks of focused, collaborative learning complete with curated instructional courses, expert guest lectures, demos, and engagement activities to ensure participants walk away with a deep understanding of the Web3 and crypto ecosystem. We will meet twice weekly to learn and demo various protocols, use cases, platforms, and projects. </p>
+            <p className=' text-start pt-[32px] text-lg font-normal leading-[22px]'>This Web3 Cohort is an invite-only 8 weeks of focused, collaborative learning complete with curated instructional courses, expert guest lectures, demos, and engagement activities to ensure participants walk away with a deep understanding of the Web3 and crypto ecosystem. We will meet twice weekly to learn and demo various protocols, use cases, platforms, and projects. </p>
           </div>
           <div className=' '>
-            <div className=' flex border  w-full gap-16 mt-20 mb-[60px]'>
-              <div className='block  w-[30%] leading-[51px]'>
+            <div className='grid grid-cols-2   w-full gap-16 mt-20 mb-[60px]'>
+              <div className='block leading-[51px]'>
                 <h1 className='font-semibold  text-start text-3xl md:text-6xl  text-[#FFB400]'>Know your </h1>
                 <h1 className='font-semibold  text-start text-[28px] md:text-[54px]  text-[#FFB400]'>Mentors</h1>
               </div>
-              <p className=' text-start text-2xl font-normal leading-[22px]'>This Web3 Cohort is an invite-only 8 weeks of focused, collaborative learning complete with curated instructional courses, expert guest lectures, demos, and engagement activities to ensure participants walk away with a deep understanding of the Web3 and crypto ecosystem. We will meet twice weekly to learn and demo various protocols, use cases, platforms, and projects. </p>
+              <p className=' text-start text-lg font-normal leading-[22px]'>This Web3 Cohort is an invite-only 8 weeks of focused, collaborative learning complete with curated instructional courses, expert guest lectures, demos, and engagement activities to ensure participants walk away with a deep understanding of the Web3 and crypto ecosystem. We will meet twice weekly to learn and demo various protocols, use cases, platforms, and projects. </p>
             </div>
           </div>
 

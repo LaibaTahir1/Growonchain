@@ -37,7 +37,7 @@ function App() {
     <div >
       <Layout >
         <Header />
-        <div className='max-w-[1240px] mx-auto p-2'>
+        <div className='max-w-[1240px] mx-auto p-4'>
         <Boxes/>
         <Description />
         <Feature />

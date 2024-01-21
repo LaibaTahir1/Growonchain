@@ -3,7 +3,7 @@ const FAQ = [
   {
     id: 1,
     img: '/assets/images/arrow2.png',
-    titile: 'What is the time Commitment?',
+    title: 'What is the time Commitment?',
     heading: 'Our invites-only cohort empower people to unlock financial fredom through crypto education ,experimantation, and community. Through cohort base learning member will explore and gain learning experience using the top blockchain protocols and applications.',
     list: '40 ¬ hours of content via a comprehensive learning program:',
     li1: 'Live Classes + Demo + Live Q&A Sessions',
@@ -15,7 +15,7 @@ const FAQ = [
   {
     id: 2,
     img: '/assets/images/arrow2.png',
-    titile: 'Who is web three cohort for? What if i nothing about Web3?',
+    title: 'Who is web three cohort for? What if i nothing about Web3?',
     heading: 'Our invites-only cohort empower people to unlock financial fredom through crypto education ,experimantation, and community. Through cohort base learning member will explore and gain learning experience using the top blockchain protocols and applications.',
     list: '40 ¬ hours of content via a comprehensive learning program:',
     li1: 'Live Classes + Demo + Live Q&A Sessions',
@@ -27,7 +27,7 @@ const FAQ = [
   {
     id: 3,
     img: '/assets/images/arrow2.png',
-    titile: 'What will i learn in this chorot?',
+    title: 'What will i learn in this chorot?',
     heading: 'Our invites-only cohort empower people to unlock financial fredom through crypto education ,experimantation, and community. Through cohort base learning member will explore and gain learning experience using the top blockchain protocols and applications.',
     list: '40 ¬ hours of content via a comprehensive learning program:',
     li1: 'Live Classes + Demo + Live Q&A Sessions',
@@ -39,7 +39,7 @@ const FAQ = [
   {
     id: 4,
     img: '/assets/images/arrow2.png',
-    titile: 'What is the Web3 Cohort?',
+    title: 'What is the Web3 Cohort?',
     heading: 'Our invites-only cohort empower people to unlock financial fredom through crypto education ,experimantation, and community. Through cohort base learning member will explore and gain learning experience using the top blockchain protocols and applications.',
     list: '40 ¬ hours of content via a comprehensive learning program:',
     li1: 'Live Clyasses + Demo + Live Q&A Sessions',
@@ -49,12 +49,18 @@ const FAQ = [
     li5: 'Guest Speakers for leading crypto companies and VC firm',
   },
 ];
-function Faq() {
-  const [selected, setSelected] = useState(true);
+function Faq( ) {
+
+  const [selected, setSelected] = useState('Who is web three cohort for? What if i nothing about Web3?');
   console.log({ selected })
-  
-  
-  
+
+  const Toggle =(items)=>{
+    if (selected === items.title) {  
+      setSelected(null)
+  } else {
+    setSelected(items.title);
+  }
+  }
 
   return (
     <div className=' text-white'>
@@ -64,12 +70,16 @@ function Faq() {
           {FAQ.map((items, index) => {
             return (
               <div key={`${items.id}___${index}`}>
-                <button  onClick={() => setSelected(items.titile)} className='flex  pb-3 pl-3 pr-3  gap-2.5  bg-[#93A4F3] max-w-[800px] mx-auto w-full rounded-t-xl  '>
+                <button onClick={() => {
+                  Toggle(items)
+                }}
+
+                  className='flex  pb-3 pl-3 pr-3  gap-2.5  bg-[#93A4F3] max-w-[800px] mx-auto w-full rounded-t-xl  '>
                   <img className='pt-3' src={items.img} alt='' />
-                 {selected? <h1 className=' text-[#2C3B87] pt-3  text-start   font-semibold text-lg md:text-2xl'>{items.titile} </h1> :null}
+                  <h1 className=' text-[#2C3B87] pt-3  text-start   font-semibold text-lg md:text-2xl'>{items.title}
+                  </h1>
                 </button>
-                
-                 {selected === items.titile && ( <div> <div className='  mb-4  '>
+                {selected === items.title && (<div> <div className='  mb-4  '>
                   <h1 className='block justify-center pt-3 pl-8 pr-8 pb-6 text-white bg-[#2C3B87]  max-w-[800px] w-full mx-auto text-sm md:text-lg  font-medium'>{items.heading}</h1>
                   <div className='block rounded-b-lg justify-center  text-white bg-blue-900      font-bold text-lg  '>
                     <ul className='block justify-center  pl-14 pr-12  text-white bg-[#2C3B87] list-disc  max-w-[800px] w-full mx-auto text-sm md:text-lg  font-medium'><li> {items.list}</li>  </ul>
@@ -85,18 +95,18 @@ function Faq() {
                   </div>
                 </div>
                 </div>)
-         } 
+                }
               </div>
-        );
+            );
           })}
-      </div>
+        </div>
 
-      <div className='   text-white text-start mt-20 '>
-        <h1 className=' text-[16px] md:text-[22px] font-normal'>Have more Question? Drop us a mail at  </h1>
-        <div className='flex gap-1'> <h1 className='mt-4  text-[16px] md:text-[22px] font-medium'>web3withdhee@gmail.com</h1>
-          <img src='assets/images/copy.png' alt=' ' /> </div>
+        <div className='   text-white text-start mt-20 '>
+          <h1 className=' text-[16px] md:text-[22px] font-normal'>Have more Question? Drop us a mail at  </h1>
+          <div className='flex gap-1'> <h1 className='mt-4  text-[16px] md:text-[22px] font-medium'>web3withdhee@gmail.com</h1>
+            <img src='assets/images/copy.png' alt=' ' /> </div>
+        </div>
       </div>
-    </div>
 
 
     </div >

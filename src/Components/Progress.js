@@ -10,9 +10,9 @@ function Progress() {
         <p className='text-white text-lg font-normal mt-1'>566/1,500 XP</p>
       </div>
       <div className=' mt-5 pb-8  mb-8 text-center max-w-[700px] mx-auto w-full'>
-        <p className='rounded-full   bg-[#373938] max-w-[604px] w-full mx-auto h-[11px]'></p>
-        <p className=' rounded-full  max-w-[537px] w-full mx-aut0 h-[11px] bg-gradient-to-r from-[#FF5C38]  via-[#FFC63B]  to-[#32E274]  '></p>
-      </div>
+        <div className='rounded-full   bg-[#373938] max-w-[604px] w-full mx-auto h-[11px]'>
+        <div  className=' rounded-full  max-w-[537px] w-full mx-aut0 h-[11px] bg-gradient-to-r from-[#FF5C38]  via-[#FFC63B]  to-[#32E274]  '></div>
+        </div></div>
       </div>
       <div className=''></div>
     </div>

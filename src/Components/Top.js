@@ -8,7 +8,7 @@ export default function Top() {
             <div className='block mt-11'>
             <img src='assets/images/GrowOnChain.png ' className='w-[101px] h-10 ' alt='' />
             </div>
-            <div className='flex justify-between mt-11 gap-[23px]  '>
+            <div className='flex justify-between items-center mt-11 gap-[23px]  '>
                <div className='flex gap-1 leading-normal'>
                 <img className='h-5 w-5' src='assets/images/Learn.png' alt='' />
                 <p className='text-lg font-medium leading-normal'>Learn</p>

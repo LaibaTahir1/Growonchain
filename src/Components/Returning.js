@@ -1,9 +1,11 @@
 import React from 'react'
+import Sliders from './Sliders'
 
 function Returning() {
   return ( 
     <div className='max-w-[1240px] mt-28 mx-auto w-full text-white'>
       <h1 className='text-3xl font-bold'>Returning Quests</h1>
+      <Sliders /> 
       <div className=' flex  gap-5  mt-12'>
       <div className='bg-[#131413]  rounded-b-[20px]'>
       <img className='rounded-t-[20px] '  src='assets/images/tree.png ' alt='' />

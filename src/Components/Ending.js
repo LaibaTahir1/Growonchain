@@ -2,16 +2,20 @@ import React from 'react'
 
 export default function Ending() {
   return (
-    <div className='max-w-[1400px] w-full mx-auto'>
-         <div className=' bg-blue-700 mt-0 '>
-        <div className=' bg-blue-700 max-w-[760px] mx-auto w-full'>
-        <div className=' text-white h-[600px] bg-blue-700 flex justify-around w-600'>
+    <div className=' w-full mx-auto '  style={{
+      backgroundImage:'url(./assets/images/footer.png)',
+      backgroundSize:'cover',
+      width:'100%',
+      backgroundRepeat:'no-repeat',
+    }} >
+         <div className='max-w-[1400px] w-full mx-auto p-8 mt-[103px] '>
+        <div className=''>
+        <div className=' text-white  flex justify-around w-600'>
            <div className='block mt-8 '>
-           <h1 className='text-green-300 text-2xl font-semibold'>Grow</h1>
-            <h1  className='text-purple-600 text-2xl font-semibold'>OnChain</h1>
+           <img src='assets/images/GrowOnChain.png ' className='w-[101px] h-10 ' alt='' />
            
            <div className=''>
-           <div className='block text-lg mt-4'>
+           <div className='block pb-48 text-base font-medium pt-3 '>
                 <h3>twitter</h3>
                 <h3>Instagram</h3>
                 <h3> discord</h3>
@@ -21,8 +25,8 @@ export default function Ending() {
             
            </div>
            </div>
-            <div className='block mt-2' >
-            <div className='flex justify-between text-bold gap-10 mt-10 text-white'>
+            <div className='block text-base font-medium ' >
+            <div className='flex justify-between text-bold gap-7 pt-8 text-white'>
             <h2> Terms</h2>
             <h2>Pricing</h2>
             <h2>Return Policy</h2>

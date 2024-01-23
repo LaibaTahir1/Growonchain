@@ -24,9 +24,16 @@ import Boxes from './Components/Boxes';
 function App() {
   return (
     <div className='bg-black'>
-     <Top />
+     <div style={{
+      background:'url(/assets/images/GrowHeaderBg.svg)',
+      backgroundSize:'cover',
+      width:'100%',
+      backgroundRepeat:'no-repeat',
+     }}>
+      <Top />
         <Intro />
-        <Progress />
+        <Progress /> 
+        </div>
       <Returning />
       <DailyTasks />
       <Newto />

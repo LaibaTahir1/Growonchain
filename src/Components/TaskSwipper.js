@@ -1,23 +1,23 @@
 import React from 'react'
 
-function TaskSwipper() {
+function TaskSwipper(props) {
   return (
     <div>
       <div >
    
-   <div className='  grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-5  mt-12'>
+   <div className='    mt-12'>
     <div className='bg-[#131413]  rounded-[20px]'>
-    <img className='rounded-t-[20px] '  src='assets/images/Task1.png ' alt='' />
+    <img className='rounded-t-[20px] '  src={props.img} alt='' />
     
-    <h2 className='text-2xl pl-5 font-semibold mt-6'>Pray to Atia!</h2>
-    <p className='mt-3 text-lg font-normal pl-5'>Axie infinity</p>
-    <div className='flex gap-2 mt-6 pl-5 mb-7'>
-    <img className=' ' src='assets/images/XP.png' alt='' />
-      <p className='text-xl font-bold leading-8 '>100</p>
-      <img className='h-[32px] w-[36px]' src='assets/images/Bbox.png' alt='' />
+    <h2 className='text-2xl pl-5 font-semibold mt-6'>{props.title}</h2>
+    <p className='mt-3 text-lg font-normal pl-5'>{props.heading}</p>
+    <div className='flex gap-2 mt-6 pl-5 pb-[31px]'>
+    <img className=' ' src={props.xpImg} alt='' />
+      <p className='text-xl font-bold leading-8 '>{props.number}</p>
+      <img className='h-[32px] w-[36px] ' src={props.boxImg} alt='' />
     </div>
     </div>
-    
+{/*     
     <div className='bg-[#131413]  rounded-[20px]'>
     <img className='rounded-t-[20px] ' src='assets/images/Task2.png ' alt='' />
     
@@ -48,7 +48,7 @@ function TaskSwipper() {
     <img className='' src='assets/images/XP.png' alt='' />
       <p className='text-xl font-bold leading-8'>75</p>
     </div>
-    </div>
+    </div> */}
     </div>
     
   </div>

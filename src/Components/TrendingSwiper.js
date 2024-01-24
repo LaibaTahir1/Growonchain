@@ -1,19 +1,19 @@
 import React from 'react'
 
-function TrendingSwiper() {
+function TrendingSwiper(props) {
   return (
     <div>
-      <div className='max-w-[1240px] mt-28 mx-auto w-full text-white'>
-        <h1 className='text-3xl font-semibold'>Trending Communities</h1>
-        <div className='  grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  rounded-b-2xl gap-5 mt-11'>
+      <div >
+
+        <div className='  rounded-b-2xl  mt-11'>
           <div className='bg-[#131413]  rounded-2xl'>
-      
-            <img className='rounded-t-2xl pl-12 pr-12 pt-14 '  src='assets/images/Grow1.png ' alt='' />
-     <h2 className='text-2xl font-bold text-center pt-14 pl-[61px] pr-[61px]'>Grow OnChain</h2>
-     <p className=' text-center pb-8 pt-4 text-lg font-normal '>69 Quest</p>
+
+            <div className='min-h-[190px]'>  <img className='rounded-t-2xl pl-12 pr-12 pt-14 mx-auto ' src={props.img} alt='' /></div>
+            <h2 className='text-2xl font-bold text-center pt-14 pl-[61px] pr-[61px]'>{props.heading}</h2>
+            <p className=' text-center pb-8 pt-4 text-lg font-normal '>{props.text}</p>
           </div>
 
-          <div className='bg-[#131413]    text-center rounded-2xl'>
+          {/* <div className='bg-[#131413]    text-center rounded-2xl'>
             <img className='  pt-10 pl-[107px] pr-[107px]  ' src='assets/images/Grow2.png ' alt='' />
 
             <h2 className='text-2xl font-bold pt-10'>Ronin</h2>
@@ -33,7 +33,7 @@ function TrendingSwiper() {
             <h2 className='text-2xl font-bold pt-10  '>CyberKongz</h2>
             <p className='text-center pb-8 pt-4 text-lg font-normal'>2 Quests</p>
 
-          </div>
+          </div> */}
         </div>
 
       </div>

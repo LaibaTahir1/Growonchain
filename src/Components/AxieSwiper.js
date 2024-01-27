@@ -19,6 +19,7 @@ const AXIESWIPER = [
     img: 'assets/images/Axie1.png ',
     borderImg: 'assets/images/border.png',
     title: 'Intro to Axie Lore',
+    heading: 'Origins & Mystic',
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '100',
@@ -32,6 +33,7 @@ const AXIESWIPER = [
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '100',
+   
   },
   {
     id: 3,
@@ -42,7 +44,7 @@ const AXIESWIPER = [
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '100',
-    xpImg: 'assets/images/tBox.png'
+    boxImg : 'assets/images/tBox.png' ,
   },
   {
     id: 4,
@@ -53,13 +55,14 @@ const AXIESWIPER = [
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '50',
-    xpImg: 'assets/images/tBox.png'
+    boxImg: 'assets/images/tBox.png' ,
   },
   {
     id: 5,
     img: 'assets/images/Axie1.png ',
     borderImg: 'assets/images/border.png',
     title: 'Intro to Axie Lore',
+    heading: 'Origins & Mystic',
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '100',
@@ -83,7 +86,7 @@ const AXIESWIPER = [
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '100',
-    xpImg: 'assets/images/tBox.png'
+    boxImg: 'assets/images/tBox.png' ,
   },
   {
     id: 8,
@@ -94,7 +97,7 @@ const AXIESWIPER = [
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '50',
-    xpImg: 'assets/images/tBox.png'
+    boxImg: 'assets/images/tBox.png' ,
   },
   {
     id: 9,
@@ -102,6 +105,7 @@ const AXIESWIPER = [
     borderImg: 'assets/images/border.png',
     title: 'Intro to Axie Lore',
     text: 'Axie infinity',
+    heading: 'Origins & Mystic',
     xpImg: 'assets/images/XP.png',
     number: '100',
   },
@@ -124,7 +128,7 @@ const AXIESWIPER = [
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '100',
-    xpImg: 'assets/images/tBox.png'
+    boxImg: 'assets/images/tBox.png' ,
   },
   {
     id: 12,
@@ -135,7 +139,7 @@ const AXIESWIPER = [
     text: 'Axie infinity',
     xpImg: 'assets/images/XP.png',
     number: '50',
-    xpImg: 'assets/images/tBox.png'
+    boxImg: 'assets/images/tBox.png' ,
   },
 ]
 export default function AxieSwiper() {
@@ -152,7 +156,8 @@ export default function AxieSwiper() {
             heading={item.heading}
             text={item.text}
             xpImg={item.xpImg}
-            number={item.number} /></SwiperSlide>
+            number={item.number} 
+            boxImg= {item.boxImg} /></SwiperSlide>
          )
         })}
        

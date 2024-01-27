@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Top() {
   return (
@@ -6,7 +7,7 @@ export default function Top() {
          <div className='max-w-[1200px] mx-auto w-full'>
         <div className=' block lg:flex justify-around gap-[675px] text-white'>
             <div className='block mt-11'>
-            <img src='assets/images/GrowOnChain.png ' className='w-[101px] h-10 ' alt='' />
+           <Link to={'/Home'}> <img src='assets/images/GrowOnChain.png ' className='w-[101px] h-10 ' alt='' /></Link>
             </div>
             <div className=' flex justify-between items-center mt-11 gap-[23px]  '>
                <div className='flex gap-1 leading-normal'>

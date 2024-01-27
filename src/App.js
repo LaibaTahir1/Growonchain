@@ -18,44 +18,36 @@ import LastNew from './Components/LastNew';
 import Ending from './Components/Ending';
 import Layout from './layout';
 import Boxes from './Components/Boxes';
+import { Routes ,Route  } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Navbar from './layout/Navbar';
+import Dashboard from './pages/Dashboard';
+import Nav from './Components/Nav';
+import DashboardHeader from './Components/DashboardHeader';
+import AboutLesson from './Components/AboutLesson';
+import AboutChapter from './Components/AboutChapter';
+import AboutModule from './Components/AboutModule';
+import ModuleSection from './Components/ModuleSection';
+import NewModule from './Components/NewModule';
+import ActionSection from './Components/ActionSection';
+import Contract from './Components/Contract';
+import Footer from './Components/Footer';
+
 
 
 
 function App() {
   return (
     <div className='bg-black'>
-     <div style={{
-      background:'url(/assets/images/GrowHeaderBg.svg)',
-      backgroundSize:'cover',
-      width:'100%',
-      backgroundRepeat:'no-repeat',
-     }}>
-      <Top />
-        <Intro />
-        <Progress /> 
-        </div>
-      <Returning />
-      <DailyTasks />
-      <Newto />
-      <Communities />
-      <Infinity />
-      <LastNew />
-      <Ending />
+      <Routes>
+          <Route path='/Home' element={<Home />}></Route>
+          <Route path='/About' element={<About />} ></Route>
+          <Route path='/Dashboard' element={<Dashboard/>} ></Route>
+        
+      </Routes>
     </div>
-    // <div >
-    //   <Layout >
-    //     <Header />
-    //     <div className='max-w-[1240px] mx-auto p-4'>
-    //     <Boxes/>
-    //     <Description />
-    //     <Feature />
-    //     <Journey />
-    //     <Benefit />
-    //     <Figma />
-    //     <Faq />
-    //     </div>
-    //   </Layout>
-    // </div>
+
   );
 }
 export default App;

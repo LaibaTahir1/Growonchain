@@ -14,7 +14,7 @@ function Cardswipper(props) {
       <div className='flex gap-2 mt-[29px] pl-5 mb-7'>
       <img className=' ' src={props.Ximg} alt='' />
         <p className='text-xl font-bold leading-8 '>{props.numbr}</p>
-        <img className='' src={props.Boximg} alt='' />
+       {props.Boximg  ? <img className='w-[36px] h-[30px]' src={props.Boximg} alt='' /> : null}
       </div> 
       </div>
       
